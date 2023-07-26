@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #faae5c;
+    font-family: 'Source Code Pro', monospace;
+}
+.generator-box {
+    
+    background-color: #fff;
+    width: 60%;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+    margin: auto;
+    margin-top: 20%;
+}
+.generator-box h2 {
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+.generator-box blockquote{
+    font-size: 1.4rem;
+    min-height: 110px;
+    padding-top: 3%;
+
+}
+.generator-box span {
+    font-size: 2.3rem;
+    padding-top: 3% ;
+}
+.generator-box div {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.generator-box button{
+    background: #faae5c;
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid #faae5c;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
